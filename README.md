@@ -17,6 +17,14 @@ The bot itself will, by default, totally occupy the shell it is in, so it can be
 running it inside a tmux session where it can be left alone in it's own shell, because every so often it may provide a link that must
 be followed to refresh OMS credentials that shouldn't get lost, otherwise the bot will need to be restarted.
 
+To actually report to mattermost, you will need a `.env` file at topmost level of the repository. The structure of this file needs to be
+
+```
+API_URL=<the_mattermost_webhook_url>
+```
+
+To get this URL, please contact a repository maintainer.
+
 ### Structure
 
 #### `cidada_monitoring.py`
