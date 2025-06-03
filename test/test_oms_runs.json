@@ -1,0 +1,2215 @@
+{
+   "data": [
+      {
+         "id": "392671",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "circulating2025/v33",
+            "l1_key": "l1_trg_circulating2025/v15",
+            "duration": 2870,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 1486842,
+            "hlt_physics_throughput": 0.00173221,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T05:16:42Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 29.59,
+            "recorded_lumi": 0.0,
+            "delivered_lumi": 0.0,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 450.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": 23.349,
+            "fill_number": 10673,
+            "l1_hlt_mode": "circulating2025",
+            "end_time": "2025-05-29T04:57:47Z",
+            "trigger_mode": "l1_hlt_circulating2025/v33",
+            "l1_key_stripped": "circulating2025/v15",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 11,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T04:09:57Z",
+            "hlt_physics_size": 4.967,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/circulating/2025/v1.1.0/HLT/V4",
+            "clock_type": "LHC",
+            "last_lumisection_number": 124,
+            "l1_rate": 522.314,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392671,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": 66945
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392671/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392671"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392672",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v40",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 43543,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 4064119736,
+            "hlt_physics_throughput": 2.77417264,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T17:26:06Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 5.7,
+            "recorded_lumi": 776.599482680804,
+            "delivered_lumi": 821.163923773948,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 14.047036783854,
+            "hlt_physics_rate": 2730.972,
+            "fill_number": 10673,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T17:22:24Z",
+            "trigger_mode": "l1_hlt_collisions2025/v40",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 120.0,
+            "initial_prescale_index": 3,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T05:16:41Z",
+            "hlt_physics_size": 120604.142,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5",
+            "clock_type": "LHC",
+            "last_lumisection_number": 1869,
+            "l1_rate": 93435.72,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392672,
+            "stable_beam": true,
+            "beta_star_stop": 0.2,
+            "hlt_physics_counter": 118726037
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392672/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392672"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392673",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v40",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 119,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 639,
+            "hlt_physics_throughput": 0.00133618,
+            "init_lumi": 14.040161263021,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T17:31:50Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 100.0,
+            "recorded_lumi": 0.030772814266,
+            "delivered_lumi": 4.812094150035,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 13.981203835227,
+            "hlt_physics_rate": 0.24,
+            "fill_number": 10673,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T17:28:05Z",
+            "trigger_mode": "l1_hlt_collisions2025/v40",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.2,
+            "initial_prescale_index": 9,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T17:26:06Z",
+            "hlt_physics_size": 0.156,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5",
+            "clock_type": "LHC",
+            "last_lumisection_number": 6,
+            "l1_rate": 5.262,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392673,
+            "stable_beam": true,
+            "beta_star_stop": 0.2,
+            "hlt_physics_counter": 28
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392673/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392673"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392674",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v40",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 277,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 4128,
+            "hlt_physics_throughput": 0.00115895,
+            "init_lumi": 13.978648502604,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T17:39:03Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 99.99,
+            "recorded_lumi": 0.066122881344,
+            "delivered_lumi": 6.0092988283,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 13.798760253906,
+            "hlt_physics_rate": 0.193,
+            "fill_number": 10673,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T17:36:26Z",
+            "trigger_mode": "l1_hlt_collisions2025/v40",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.2,
+            "initial_prescale_index": 9,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T17:31:49Z",
+            "hlt_physics_size": 0.324,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5",
+            "clock_type": "LHC",
+            "last_lumisection_number": 13,
+            "l1_rate": 16.592,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392674,
+            "stable_beam": true,
+            "beta_star_stop": 0.2,
+            "hlt_physics_counter": 54
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392674/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392674"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392675",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v40",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 37,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 0,
+            "hlt_physics_throughput": null,
+            "init_lumi": 13.795171419271,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T17:42:48Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 100.0,
+            "recorded_lumi": 0.010051237731,
+            "delivered_lumi": 3.103592942406,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 13.764626367188,
+            "hlt_physics_rate": null,
+            "fill_number": 10673,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T17:39:39Z",
+            "trigger_mode": "l1_hlt_collisions2025/v40",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.2,
+            "initial_prescale_index": 9,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T17:39:02Z",
+            "hlt_physics_size": null,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5",
+            "clock_type": "LHC",
+            "last_lumisection_number": 2,
+            "l1_rate": null,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392675,
+            "stable_beam": true,
+            "beta_star_stop": 0.2,
+            "hlt_physics_counter": null
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392675/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392675"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392676",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v40",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 3374,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 246648491,
+            "hlt_physics_throughput": 1.14873744,
+            "init_lumi": 13.758637369792,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T18:45:27Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 5.9,
+            "recorded_lumi": 37.657582318433,
+            "delivered_lumi": 39.246519332494,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": 1546.459,
+            "fill_number": 10673,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T18:39:02Z",
+            "trigger_mode": "l1_hlt_collisions2025/v40",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.2,
+            "initial_prescale_index": 9,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T17:42:48Z",
+            "hlt_physics_size": 3882.743,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5",
+            "clock_type": "LHC",
+            "last_lumisection_number": 146,
+            "l1_rate": 72976.74,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392676,
+            "stable_beam": true,
+            "beta_star_stop": 18.0,
+            "hlt_physics_counter": 5227046
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392676/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392676"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392679",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "cosmics2025/v44",
+            "l1_key": "l1_trg_cosmics2025/v17",
+            "duration": 247,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 20656394,
+            "hlt_physics_throughput": 0.02185044,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-30T00:20:01Z",
+            "components_out": [
+               "CTPPS_TOT",
+               "GEM",
+               "HCAL"
+            ],
+            "beamactive_total_deadtime": 0,
+            "recorded_lumi": 4.067e-09,
+            "delivered_lumi": 5.447e-09,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 6134.0,
+            "end_lumi": 4.8351e-08,
+            "hlt_physics_rate": 489.824,
+            "fill_number": 10673,
+            "l1_hlt_mode": "cosmics2025",
+            "end_time": "2025-05-29T18:49:33Z",
+            "trigger_mode": "l1_hlt_cosmics2025/v44",
+            "l1_key_stripped": "cosmics2025/v17",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 6,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T18:45:26Z",
+            "hlt_physics_size": 5.603,
+            "fill_type_runtime": "COSMICS",
+            "hlt_key": "/cdaq/cosmic/commissioning2025/v1.1.0/HLT/V3",
+            "clock_type": "LOCAL",
+            "last_lumisection_number": 11,
+            "l1_rate": 81511.266,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392679,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": 125598
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392679/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392679"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392682",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "L1SCOUT",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "cosmics2025/v44",
+            "l1_key": "l1_trg_cosmics2025/v17",
+            "duration": 541,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 54314085,
+            "hlt_physics_throughput": 0.02075314,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T19:08:52Z",
+            "components_out": [
+               "CTPPS_TOT",
+               "GEM",
+               "HCAL",
+               "PIXEL"
+            ],
+            "beamactive_total_deadtime": 0,
+            "recorded_lumi": 9.24e-10,
+            "delivered_lumi": 1.408e-09,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 4087.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": 480.392,
+            "fill_number": 10674,
+            "l1_hlt_mode": "cosmics2025",
+            "end_time": "2025-05-29T19:00:14Z",
+            "trigger_mode": "l1_hlt_cosmics2025/v44",
+            "l1_key_stripped": "cosmics2025/v17",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 6,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T18:51:13Z",
+            "hlt_physics_size": 11.61,
+            "fill_type_runtime": "COSMICS",
+            "hlt_key": "/cdaq/cosmic/commissioning2025/v1.1.0/HLT/V3",
+            "clock_type": "LOCAL",
+            "last_lumisection_number": 24,
+            "l1_rate": 97086.69,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392682,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": 268755
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392682/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392682"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392690",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "L1SCOUT",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v41",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 492,
+            "b_field": 3.8,
+            "tier0_transfer": false,
+            "l1_triggers_counter": 304382,
+            "hlt_physics_throughput": null,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-30T00:20:02Z",
+            "components_out": [
+               "CTPPS_TOT",
+               "GEM",
+               "HCAL",
+               "PIXEL"
+            ],
+            "beamactive_total_deadtime": 34.04,
+            "recorded_lumi": 0.0,
+            "delivered_lumi": 1.038e-09,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 59.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": null,
+            "fill_number": 10674,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T19:17:04Z",
+            "trigger_mode": "l1_hlt_collisions2025/v41",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 3,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T19:08:52Z",
+            "hlt_physics_size": null,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V6",
+            "clock_type": "LOCAL",
+            "last_lumisection_number": 22,
+            "l1_rate": 638.658,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392690,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": null
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392690/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392690"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392692",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CTPPS_TOT",
+               "DAQ",
+               "TCDS"
+            ],
+            "l1_hlt_mode_stripped": null,
+            "l1_key": null,
+            "duration": 105,
+            "b_field": 3.8,
+            "tier0_transfer": false,
+            "l1_triggers_counter": null,
+            "hlt_physics_throughput": null,
+            "init_lumi": null,
+            "era": null,
+            "last_update": "2025-05-29T19:20:05Z",
+            "components_out": [
+               "CTPPS"
+            ],
+            "beamactive_total_deadtime": null,
+            "recorded_lumi": null,
+            "delivered_lumi": null,
+            "cmssw_version": "CMSSW_14_2_2",
+            "crossing_angle_stop": null,
+            "energy": null,
+            "end_lumi": null,
+            "hlt_physics_rate": null,
+            "fill_number": null,
+            "l1_hlt_mode": null,
+            "end_time": "2025-05-29T19:19:57Z",
+            "trigger_mode": "MANUAL",
+            "l1_key_stripped": null,
+            "crossing_angle_start": null,
+            "fill_type_party2": null,
+            "fill_type_party1": null,
+            "beta_star_start": null,
+            "initial_prescale_index": null,
+            "sequence": "PRIVATE-GLOBAL-TOTEMCTPPS",
+            "start_time": "2025-05-29T19:18:12Z",
+            "hlt_physics_size": null,
+            "fill_type_runtime": "COSMICS",
+            "hlt_key": "/minidaq/2024/Basic/HLT/V2",
+            "clock_type": "LOCAL",
+            "last_lumisection_number": null,
+            "l1_rate": null,
+            "l1_menu": null,
+            "run_number": 392692,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": null
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392692/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392692"
+         }
+      },
+      {
+         "id": "392697",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "circulating2025/v33",
+            "l1_key": "l1_trg_circulating2025/v15",
+            "duration": 947,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 501851,
+            "hlt_physics_throughput": 0.00160462,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T19:50:32Z",
+            "components_out": [
+               "HCAL"
+            ],
+            "beamactive_total_deadtime": 23.55,
+            "recorded_lumi": 0.0,
+            "delivered_lumi": 0.0,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 450.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": 38.029,
+            "fill_number": 10674,
+            "l1_hlt_mode": "circulating2025",
+            "end_time": "2025-05-29T19:45:54Z",
+            "trigger_mode": "l1_hlt_circulating2025/v33",
+            "l1_key_stripped": "circulating2025/v15",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 11,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T19:30:07Z",
+            "hlt_physics_size": 1.534,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/circulating/2025/v1.1.0/HLT/V4",
+            "clock_type": "LHC",
+            "last_lumisection_number": 42,
+            "l1_rate": 533.622,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392697,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": 36345
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392697/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392697"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392699",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "circulating2025/v33",
+            "l1_key": "l1_trg_circulating2025/v15",
+            "duration": 3192,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 1709228,
+            "hlt_physics_throughput": 0.00338295,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T21:03:26Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 11.67,
+            "recorded_lumi": 0.0,
+            "delivered_lumi": 5.152093e-06,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": null,
+            "energy": 450.0,
+            "end_lumi": 0.0,
+            "hlt_physics_rate": 45.349,
+            "fill_number": 10674,
+            "l1_hlt_mode": "circulating2025",
+            "end_time": "2025-05-29T20:43:44Z",
+            "trigger_mode": "l1_hlt_circulating2025/v33",
+            "l1_key_stripped": "circulating2025/v15",
+            "crossing_angle_start": null,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": null,
+            "initial_prescale_index": 11,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T19:50:32Z",
+            "hlt_physics_size": 10.488,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/circulating/2025/v1.1.0/HLT/V4",
+            "clock_type": "LHC",
+            "last_lumisection_number": 138,
+            "l1_rate": 551.323,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392699,
+            "stable_beam": false,
+            "beta_star_stop": null,
+            "hlt_physics_counter": 140596
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392699/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392699"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               }
+            }
+         }
+      },
+      {
+         "id": "392700",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v41",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 8805,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 681681394,
+            "hlt_physics_throughput": 2.71835733,
+            "init_lumi": 0.0,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T23:32:09Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 13.84,
+            "recorded_lumi": 135.691107124297,
+            "delivered_lumi": 161.374352010623,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 21.399326882102,
+            "hlt_physics_rate": 2552.923,
+            "fill_number": 10674,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T23:30:11Z",
+            "trigger_mode": "l1_hlt_collisions2025/v41",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 120.0,
+            "initial_prescale_index": 3,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T21:03:26Z",
+            "hlt_physics_size": 21671.18,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V6",
+            "clock_type": "LHC",
+            "last_lumisection_number": 379,
+            "l1_rate": 83794.22,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392700,
+            "stable_beam": true,
+            "beta_star_stop": 0.4,
+            "hlt_physics_counter": 20352313
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392700/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392700"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392701",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v41",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 922,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 19714816,
+            "hlt_physics_throughput": 3.49654792,
+            "init_lumi": 21.373163541667,
+            "era": "Run2025C",
+            "last_update": "2025-05-29T23:50:41Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 82.1,
+            "recorded_lumi": 4.563535664848,
+            "delivered_lumi": 23.91700858359,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 21.82460859375,
+            "hlt_physics_rate": 3095.97,
+            "fill_number": 10674,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-29T23:47:31Z",
+            "trigger_mode": "l1_hlt_collisions2025/v41",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.4,
+            "initial_prescale_index": 3,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T23:32:09Z",
+            "hlt_physics_size": 244.518,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V6",
+            "clock_type": "LHC",
+            "last_lumisection_number": 41,
+            "l1_rate": 84576.73,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392701,
+            "stable_beam": true,
+            "beta_star_stop": 0.3,
+            "hlt_physics_counter": 216505
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392701/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392701"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      },
+      {
+         "id": "392702",
+         "type": "runs",
+         "attributes": {
+            "components": [
+               "CSC",
+               "CTPPS",
+               "CTPPS_TOT",
+               "DAQ",
+               "DCS",
+               "DQM",
+               "DT",
+               "ECAL",
+               "ES",
+               "GEM",
+               "HCAL",
+               "L1SCOUT",
+               "PIXEL",
+               "RPC",
+               "TCDS",
+               "TRACKER",
+               "TRG"
+            ],
+            "l1_hlt_mode_stripped": "collisions2025/v41",
+            "l1_key": "l1_trg_collisions2025/v16",
+            "duration": 835,
+            "b_field": 3.8,
+            "tier0_transfer": true,
+            "l1_triggers_counter": 20561994,
+            "hlt_physics_throughput": 3.67065719,
+            "init_lumi": 22.046822265625,
+            "era": "Run2025C",
+            "last_update": "2025-05-30T00:16:10Z",
+            "components_out": [],
+            "beamactive_total_deadtime": 85.17,
+            "recorded_lumi": 4.660331123014,
+            "delivered_lumi": 29.70337595793,
+            "cmssw_version": "CMSSW_15_0_6",
+            "crossing_angle_stop": 0.0,
+            "energy": 6799.0,
+            "end_lumi": 22.051752604167,
+            "hlt_physics_rate": 3200.341,
+            "fill_number": 10674,
+            "l1_hlt_mode": "collisions2025",
+            "end_time": "2025-05-30T00:04:35Z",
+            "trigger_mode": "l1_hlt_collisions2025/v41",
+            "l1_key_stripped": "collisions2025/v16",
+            "crossing_angle_start": 0.0,
+            "fill_type_party2": "PROTON",
+            "fill_type_party1": "PROTON",
+            "beta_star_start": 0.3,
+            "initial_prescale_index": 4,
+            "sequence": "GLOBAL-RUN",
+            "start_time": "2025-05-29T23:50:40Z",
+            "hlt_physics_size": 342.258,
+            "fill_type_runtime": "PROTONS",
+            "hlt_key": "/cdaq/physics/Run2025/2e34/v1.1.2/HLT/V6",
+            "clock_type": "LHC",
+            "last_lumisection_number": 37,
+            "l1_rate": 80191.945,
+            "l1_menu": "L1Menu_Collisions2025_v1_1_1",
+            "run_number": 392702,
+            "stable_beam": true,
+            "beta_star_stop": 0.3,
+            "hlt_physics_counter": 298405
+         },
+         "relationships": {
+            "runkeys": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/runkeys",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/runkeys"
+               }
+            },
+            "l1configurationkey": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/l1configurationkey",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/l1configurationkey"
+               }
+            },
+            "l1algorithmtriggers": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/l1algorithmtriggers",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/l1algorithmtriggers"
+               }
+            },
+            "hltconfigdata": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/hltconfigdata",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/hltconfigdata"
+               }
+            },
+            "deadtime": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/deadtime",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/deadtime"
+               }
+            },
+            "daqreadouts": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/daqreadouts",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/daqreadouts"
+               }
+            },
+            "fill": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/fill",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/fill"
+               }
+            },
+            "l1triggerrate": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/l1triggerrate",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/l1triggerrate"
+               }
+            },
+            "lumisections": {
+               "links": {
+                  "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/relationships/lumisections",
+                  "related": "https://cmsoms.cern.ch/agg/api/v1/runs/392702/lumisections"
+               }
+            }
+         },
+         "links": {
+            "self": "https://cmsoms.cern.ch/agg/api/v1/runs/392702"
+         },
+         "meta": {
+            "row": {
+               "init_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "delivered_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "recorded_lumi": {
+                  "units": "pb^{-1}"
+               },
+               "crossing_angle_start": {
+                  "units": "{\\mu}rad"
+               },
+               "beta_star_stop": {
+                  "units": "cm"
+               },
+               "crossing_angle_stop": {
+                  "units": "{\\mu}rad"
+               },
+               "end_lumi": {
+                  "units": "10^{33}cm^{-2}s^{-1}"
+               },
+               "beta_star_start": {
+                  "units": "cm"
+               }
+            }
+         }
+      }
+   ],
+   "links": {
+      "first": "https://cmsoms.cern.ch/agg/api/v1/runs?page[limit]=100&filter[runs][start_time][LE]=2025-05-30T00%3A00%3A00Z&filter[runs][start_time][GE]=2025-05-29T00%3A00%3A00Z",
+      "last": "https://cmsoms.cern.ch/agg/api/v1/runs?page[limit]=100&filter[runs][start_time][LE]=2025-05-30T00%3A00%3A00Z&filter[runs][start_time][GE]=2025-05-29T00%3A00%3A00Z",
+      "next": null,
+      "prev": null
+   },
+   "meta": {
+      "totalResourceCount": 15
+   }
+}

@@ -1,0 +1,6 @@
+tsgauth==0.10.2
+rich
+pytest
+pytest-cov
+dotenv
+schedule
